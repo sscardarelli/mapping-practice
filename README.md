@@ -1,2 +1,2 @@
 # mapping-practice
-some practice i started making maps in r
+i started practicing making maps in r and just wanted a place to store what i've been working on!
