@@ -1,7 +1,7 @@
 #SC 7/12/19
 #practice with mapping!!
 
-setwd("C:/Users/scardarelli/Documents/research/siberia_lai")
+setwd("C:/Users/scardarelli/Documents/research/mapping-practice")
 
 library(c(devtools, dplyr, ggmap, ggplot2, mapdata, maps, raster, sf, sp, stringr, usethis))
 #don't think the above works but these are all the ones i have on rn at least
@@ -77,4 +77,5 @@ calipop<-calipop+ scale_fill_gradientn(colours=rev(rainbow(7)),
                       trans="log10")
 calipop
 
-#not quite sure why there isn't a scale. a lil upset about that
+#scale seems to be off because using as.numeric on population changed the numbers to ranks.
+#gotta find a way to fix that but for now at least it looks pretty!
